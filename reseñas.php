@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 	include ("cabecera.php");
 	
 	$pagina="jugar";
@@ -6,6 +6,14 @@
 		$pagina= $_GET['p'];	
 ?>
 
+
+	
+	
+	
+	
+	
+
+        
         <!--================Services Area =================-->
         <section class="services_area p_120">
         	<div class="container">
@@ -47,47 +55,23 @@
         	</div>
 			<div class="row m0 builder_inner">
 				<div class="builder_item">
-					<img src="img/builder/cthulhu.jpg" alt="Call of Cthulhu">
+					<img src="img/reseñas/aquelarre.jpg" alt="Aquelarre: El Juego de Rol demoníaco medieval">
 					<div class="hover">
-						<h4>La llamada de Cthulhu</h4>
-						<p>En el umbral</p>
+
 					</div>
-				</div>
+				</div>				
 				<div class="builder_item">
-					<img src="img/builder/dand.jpg" alt="Dungeons & Dragons">
+					<img src="img/reseñas/aquelarre_banner.jpg" alt="Aquelarre: El Juego de Rol demoníaco medieval">
 					<div class="hover">
-						<h4>Dungeons and Dragons</h4>
-						<p>El Ducado de Sparkguard</p>
+
 					</div>
-				</div>
+				</div>					
 				<div class="builder_item">
-					<img src="img/builder/vampiro.jpg" alt="Vampiro La Mascarada">
+					<img src="img/reseñas/aquelarre2.jpg" alt="Aquelarre: El Juego de Rol demoníaco medieval">
 					<div class="hover">
-						<h4>Vampiro La Mascarada</h4>
-						<p>Hermanos de sangre</p>
+
 					</div>
-				</div>
-				<div class="builder_item">
-					<img src="img/builder/wf.jpg" alt="Warhammer Fantasy">
-					<div class="hover">
-						<h4>Warhammer Fantasy</h4>
-						<p>La maldad de Sigmar</p>
-					</div>
-				</div>
-				<div class="builder_item">
-					<img src="img/builder/esdla.jpg" alt="El Señor de los Anillos">
-					<div class="hover">
-						<h4>El Señor de los Anillos</h4>
-						<p>El retorno del brujo</p>
-					</div>
-				</div>
-				<div class="builder_item">
-					<img src="img/builder/aquelarre.jpg" alt="Aquelarre">
-					<div class="hover">
-						<h4>Aquelarre</h4>
-						<p>La cruz de Santiago</p>
-					</div>
-				</div>
+				</div>					
 			</div>
         </section>
         <!--================End Builder Image Area =================-->
@@ -100,26 +84,19 @@
         <section class="feature_area p_120">
         	<div class="container">
         		<div class="main_title">
-        			<h2>Introducción para los que nunca jugarán a rol</h2>
+        			<h2>Aquelarre: El Juego de Rol demoníaco medieval</h2>
         			<p>
-						No se avergüencen. Es humano tener miedo de lo que uno desconoce. Y a lo que uno teme, lo ataca, lo desautoriza, 
-						procura apartarlo de sí y de sus seres queridos. No se preocupen. Los jugadores de rol lo entendemos. 
-						Entendemos que en una sociedad básicamente audiovisual como la nuestra, se mire con extrañeza un entretenimiento basado en la imaginación. 
-						En el que el jugador, en lugar de adoptar un papel meramente pasivo, como sucede frente al televisor, adopte un papel totalmente activo, creando la narración a medida que la juega. 
+Analizar los cerca de treinta años de Aquelarre es un gran reto. Además de Nosolorol este juego tiene muchos nombres: José Luis Rodríguez que 
+creó la Cofradía Anatema (dónde residió el fandom en la época que Aquelarre “no era de nadie”), Albert Tarrés que en su Aquelarredvanced tiene todos 
+los archivos que se han ido liberando del juego, Pedro Nieto, Miguel Ángel Ruíz, Joaquim Ruíz, Antonio Polo, Miguel Aceytuno… forman o han formado este aquelarre, con Ricard de brujo mayor.
 
-						Entendemos también que en esta sociedad suya y mía, caro lector que nunca jugará a rol, que tiende hacia el individualismo y la soledad, y 
-						cuyo futuro parece ser la relación por internet, haya locos que aún gusten de realizar una actividad colectiva, reuniéndose en grupos de media docena de amigos, tomando un refresco antes de empezar, jugando unas horas alrededor de una mesa y yéndose después al cine o a cenar. 
+La tercera edición es todo aquello que quisiste de Aquelarre y, si se le puede achacar de algo, es de excesiva prosa para explicar ciertos aspectos o de 
+la falta de imágenes en el bestiario. Por quejarse.
 
-						Entendemos que miren con desconfianza, ustedes que han vivido toda la vida arropados por normas y reglas prestablecidas, un juego cuyo 
-						único límite es la imaginación de los que lo juegan. 
-
-						Entendemos, por último, que en un mundo como es éste de principios de siglo, dominado por las nuevas tecnologías, se mire con extrañeza a 
-						unos locos que en lugar de jugar delante de un ordenador prefieren volver a la tradición oral, a la narración y al diálogo, como antes de los tiempos del televisor. 
-
-						Lo entendemos. No se preocupen. Pero... ¿No les gustaría criticarnos con conocimiento de causa? Entonces ¿Por qué no leen algún manual,
-						juegan alguna partida, y luego opinan? Y no les preocupe si no les gusta. A diferencia de ustedes, nosotros entendemos que no a todo el
-						mundo le tienen que gustar las mismas cosas.
-						</p>Ricard Ibañez.</p>
+Aquelarre cumple la difícil característica de adecuarse a muchos tipos de partidas y grupos. Los nuevos entraran rápidamente en una ambientación que se explica en tres segundos y 
+viejos guerreros pueden medirse con el realismo mágico o épico, según se tercie. Pasa una noche en la posada de Álvar el Honesto (¿ruidos señor?, el viento, que es muy traicionero). 
+¿Necesitas salir de la ciudad? Pere Ginesta busca tripulación para el Mar Blava o visita el valle de Rincón. Te acompañaría pero voy al Santuario de Aránzazu. 
+Dicen que un tal Berriatúa ha encontrado un mensaje secreto en el Apocalipsis.
 					</p>
         		</div>
         		<div class="row feature_inner">
@@ -145,12 +122,7 @@
         	</div>
         </section>
         <!--================End Feature Area =================-->
-
-
-
-
-
-
+        
 <?php
 	include ("pie.php");
 ?>
