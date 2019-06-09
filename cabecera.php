@@ -47,7 +47,7 @@
 							<ul class="nav navbar-nav menu_nav ml-auto">
 								<li class="nav-item active"><a class="nav-link" href="index.php">Inicio</a></li> 
 								<li class="nav-item"><a class="nav-link" href="about-us.html">Subir Aventura</a></li> 
-								<li class="nav-item"><a class="nav-link" href="service.html">Modulos</a>
+								<li class="nav-item"><a class="nav-link" href="modulos.php">Modulos</a>
 								<li class="nav-item submenu dropdown">
 									<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sesiones</a>
 									<ul class="dropdown-menu">
@@ -63,7 +63,7 @@
 									</ul>
 								</li> 
 
-								<li class="nav-item"><a class="nav-link" href="foro.html">Foro</a></li>
+								<li class="nav-item"><a class="nav-link" href="foro.php">Foro</a></li>
 							</ul>
 							<ul class="nav navbar-nav navbar-right">
 								<li class="nav-item"><a href="#" class="search"><i class="lnr lnr-magnifier"></i></a></li>
