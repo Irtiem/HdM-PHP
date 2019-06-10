@@ -5,7 +5,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="icon" href="img/favicon.png" type="image/png">
-        <title>Historias de Mazmorra</title>
+        <title>HdM Registro</title>
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" href="vendors/linericon/style.css">
@@ -17,21 +17,33 @@
         <!-- main css -->
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/responsive.css">
+		<!--================ Inicio Código Slider =================-->
+		<link rel="stylesheet" href="css/flexslider.css" type="text/css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<script src="js/jquery.flexslider.js"></script>		
+		<script type="text/javascript" charset="utf-8">
+		
+			$(window).load(function() {
+				$('.flexslider').flexslider({
+				touch: true,
+				pauseOnAction: false,
+				pauseOnHover: false,
+			});
+		});
+		</script>
+		<!--================ Fin Código Slider =================-->
+		<!--================ Código Slider =================-->
+		<script type="text/javascript" src="js/code.js"></script>		
+		<!--================ Código Slider =================-->		
+		
+		
+		
     </head>
     <body>
         
         <!--================Header Menu Area =================-->
         <header class="header_area">
-           	<div class="top_menu row m0">
-           		<div class="container">
-					<div class="float-left">
-						<ul class="list header_social">
-							
-						</ul>
-					</div>
-
-           		</div>	
-           	</div>	
             <div class="main_menu">
             	<nav class="navbar navbar-expand-lg navbar-light">
 					<div class="container">
@@ -82,10 +94,3 @@
             </div>
         </section>
         <!--================End Home Banner Area =================-->
-		
-		
-		
-		
-		
-		
-		
