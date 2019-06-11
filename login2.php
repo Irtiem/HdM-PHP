@@ -1,9 +1,5 @@
 <?php
 	session_start();
-	include ("cabecera.php");
-	
-
-	
 	if(isset($_COOKIE['PUBLICAR'])) //para evitar publicar seguido, cuando se publica se publica una cookie que desaparece al pasar 10 segundos
 		$publicar=false;
 	else
@@ -86,7 +82,7 @@ if (isset($_POST['publicar'])){
 }
 
 ?>
-<h1>Inicia sesión para poder comentar en el foro</h1>
+<h1>Libro de visitas  </h1>
 <?php 
 	echo $msg."<br>";
 	echo "<ul>";
@@ -138,18 +134,5 @@ if (isset($_POST['publicar'])){
     echo "<br><br> $verAnteriores &nbsp;&nbsp;<a href='{$_SERVER['PHP_SELF']}'>Volver Principio </a>";
   }
 ?>
-
-
-
-
-
-
-
-
-
-
-
-
-<?php
-	include ("pie.php");
-?>
+</body>
+</html>
