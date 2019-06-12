@@ -5,14 +5,14 @@
                     <div class="col-lg-3  col-md-6 col-sm-6">
                         <div class="single-footer-widget ab_wd">
                             <h6 class="footer_title">Información</h6>
-                            <p>Politica de Cookies</p>
-							<p>Aviso Legal</p>
+                            <a href="cookies.php">Política de cookies</a></br>
+							<a href="privacidad.php">Política de privacidad</a>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-6">
                         <div class="single-footer-widget contact_wd">
                             <h6 class="footer_title">Contacto</h6>
-                            <p>historiasdemazmorra@hotmail.com</p>		
+                            <p>hdmazmorra@hotmail.com</p>		
                         </div>
                     </div>							
                     <div class="col-lg-5 col-md-6 col-sm-6 offset-lg-1">
@@ -26,8 +26,8 @@
                     <p class="col-lg-8 col-md-8 footer-text m-0"></p>
                     <div class="col-lg-4 col-md-4 footer-social">
 						<div id="parrafo"> </div>
-                        <a href="#"><i class="fa fa-facebook"></i></a>
-                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="https://twitter.com"><i class="fa fa-facebook"></i></a>
+                        <a href="https://www.facebook.com"><i class="fa fa-twitter"></i></a>
                     </div>
                 </div>
             </div>
