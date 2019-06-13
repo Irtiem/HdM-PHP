@@ -69,7 +69,7 @@ function monthofdate ($date)
 function yearofdate ($date)
 {
    $anyo = date ("Y", strtotime($date));
-   return ($anyo);
+   return ($anyo+1);
 }
 
 // -----------------------------------------------------------------

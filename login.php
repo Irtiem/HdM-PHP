@@ -75,7 +75,7 @@ if (isset($_POST['publicar'])){
 		$fecha = date("Y-m-d:H:i:s");
 		$comentario= new Comentario("",$nombre,$texto,$email,$fecha,$id_usr);
 		$msg=$comentario->guardarComentario();
-		setcookie("PUBLICAR","NO",time()+ESPERA);
+		
 	   
 	  }
 	  else
