@@ -1,14 +1,8 @@
 <?php
 	include ("cabecera.php");
-	
-	$pagina="jugar";
-	if(isset($_GET['p']))
-		$pagina= $_GET['p'];	
 ?>
 
-
-        
-        <!--================Services Area =================-->
+        <!--================ Inicio Area de Servicios =================-->
         <section class="services_area p_120">
         	<div class="container">
         		<div class="main_title">
@@ -40,12 +34,12 @@
         		</div>
         	</div>
         </section>
-
-
-        
+        <!--================ Fin Area de Servicios =================-->
 
         
-        <!--================Feature Area =================-->
+
+        
+        <!--================ Inicio Texto =================-->
         <section class="feature_area p_120">
         	<div class="container">
         		<div class="main_title">
@@ -87,17 +81,7 @@ La LSSI (Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Informac
         		</div>
         	</div>
         </section>
-        <!--================End Feature Area =================-->
-        
-
-
-
-
-
-
-
-
-
+        <!--================ Fin Texto =================-->
 
 <?php
 	include ("pie.php");

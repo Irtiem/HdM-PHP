@@ -110,7 +110,7 @@ if (isset($_POST['publicar'])){
 	<input type="text" name="email" value="<?php echo $email ?>" readonly>
 	<input type="submit" value="Publicar" name="publicar">
 	</form>
-<h3>Mostrando los comentarios <?php echo $comienzo+1 ." a ". (COMENTxPAG+$comienzo)?> desde los más recientes hacia atrás</h3>
+
 <?php
 	}
   $total=Comentario::totalComentarios();

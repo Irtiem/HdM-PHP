@@ -1,19 +1,8 @@
 <?php
-	include ("cabecera2.php");
-	
-	$pagina="jugar";
-	if(isset($_GET['p']))
-		$pagina= $_GET['p'];	
+	include ("cabecera2.php");	
 ?>
 
-
-    <body>
-        
-
-        
-
-        
-        <!--================Services Area =================-->
+        <!--================ Inicio Area de Servicios =================-->
         <section class="services_area p_120">
         	<div class="container">
         		<div class="main_title">
@@ -42,28 +31,19 @@
 	<form method="get"  name="formu" id="formu" method="post" >
 
 		<p id="extra" style="color:#1E5C57"> </p>
-		
-
-
-<script>
-
-	var d = new Date();
+		<!--================ Inicio Código Requisito =================-->
+		<script>
+			var d = new Date();
 	
-	date2 = d.toString();
-	document.getElementById("extra").innerHTML = d;
+			date2 = d.toString();
+			document.getElementById("extra").innerHTML = d;
 	
-	var nodoPadre = document.getElementById("extra");
-	var nodoHijo = document.createTextNode("@info");
-	nodoPadre.appendChild(nodoHijo);
-	document.body.appendChild(nodoPadre);
-
-	
-	
-</script>
-
-
-
-
+			var nodoPadre = document.getElementById("extra");
+			var nodoHijo = document.createTextNode("@info");
+			nodoPadre.appendChild(nodoHijo);
+			document.body.appendChild(nodoPadre);	
+		</script>
+		<!--================ Fin Código Requisito =================-->
 
 <div id="datos">
 </br>Nombre</br>
@@ -141,30 +121,8 @@ Acepto las condiciones del servicio y la política </br> de privacidad.<br/>
 
 
 </form>
-		<!--================ Formulario =================-->
+		<!--================ Fin Formulario =================-->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-		
         		<div class="row feature_inner">
         			<div class="col-lg-4 col-md-6">
         				<div class="feature_item">
@@ -187,7 +145,7 @@ Acepto las condiciones del servicio y la política </br> de privacidad.<br/>
         		</div>
         	</div>
         </section>
-        <!--================End Services Area =================-->
+        <!--================ Fin Area de Servicios =================-->
 <?php
 	include ("pie2.php");
 ?>

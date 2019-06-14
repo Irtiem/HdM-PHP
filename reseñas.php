@@ -1,20 +1,8 @@
 <?php
-	include ("cabecera.php");
-	
-	$pagina="jugar";
-	if(isset($_GET['p']))
-		$pagina= $_GET['p'];	
+	include ("cabecera.php");	
 ?>
-
-
-	
-	
-	
-	
-	
-
-        
-        <!--================Services Area =================-->
+      
+        <!--================ Inici Area de Servicios =================-->
         <section class="services_area p_120">
         	<div class="container">
         		<div class="main_title">
@@ -46,9 +34,9 @@
         		</div>
         	</div>
         </section>
-        <!--================End Services Area =================-->
+        <!--================ Fin Area de Servicios =================-->
         
-        <!--================Builder Image Area =================-->
+        <!--================ Inicio Galeria =================-->
         <section class="builder_area">
         	<div class="main_title">
         		<h2>Últimos modulos añadidos</h2>
@@ -74,13 +62,13 @@
 				</div>					
 			</div>
         </section>
-        <!--================End Builder Image Area =================-->
+        <!--================ Fin Galeria =================-->
         
 
         
 
         
-        <!--================Feature Area =================-->
+        <!--================ Inicio Texto =================-->
         <section class="feature_area p_120">
         	<div class="container">
         		<div class="main_title">
@@ -93,7 +81,7 @@ los archivos que se han ido liberando del juego, Pedro Nieto, Miguel Ángel Ruí
 La tercera edición es todo aquello que quisiste de Aquelarre y, si se le puede achacar de algo, es de excesiva prosa para explicar ciertos aspectos o de 
 la falta de imágenes en el bestiario. Por quejarse.
 
-Aquelarre cumple la difícil característica de adecuarse a muchos tipos de partidas y grupos. Los nuevos entraran rápidamente en una ambientación que se explica en tres segundos y 
+Aquelarre cumple la difícil característica de adecuarse a muchos tipos de partidas de rol y grupos. Los nuevos entraran rápidamente en una ambientación que se explica en tres segundos y 
 viejos guerreros pueden medirse con el realismo mágico o épico, según se tercie. Pasa una noche en la posada de Álvar el Honesto (¿ruidos señor?, el viento, que es muy traicionero). 
 ¿Necesitas salir de la ciudad? Pere Ginesta busca tripulación para el Mar Blava o visita el valle de Rincón. Te acompañaría pero voy al Santuario de Aránzazu. 
 Dicen que un tal Berriatúa ha encontrado un mensaje secreto en el Apocalipsis.
@@ -121,8 +109,7 @@ Dicen que un tal Berriatúa ha encontrado un mensaje secreto en el Apocalipsis.
         		</div>
         	</div>
         </section>
-        <!--================End Feature Area =================-->
-        
+        <!--================ Fin Texto =================--> 
 <?php
 	include ("pie.php");
 ?>

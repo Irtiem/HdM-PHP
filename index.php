@@ -1,12 +1,8 @@
 ﻿<?php
 	include ("cabecera.php");
-	
-	$pagina="jugar";
-	if(isset($_GET['p']))
-		$pagina= $_GET['p'];	
 ?>
 
-        <!--================Services Area =================-->
+        <!--================ Inicio Area de Servicios =================-->
         <section class="services_area p_120">
         	<div class="container">
         		<div class="main_title">
@@ -38,9 +34,9 @@
         		</div>
         	</div>
         </section>
-        <!--================End Services Area =================-->
+        <!--================ Fin Area de Servicios =================-->
         
-        <!--================Builder Image Area =================-->
+        <!--================ Inicio Galeria =================-->
         <section class="builder_area">
         	<div class="main_title">
         		<h2>Últimos modulos añadidos</h2>
@@ -90,13 +86,13 @@
 				</div>
 			</div>
         </section>
-        <!--================End Builder Image Area =================-->
+        <!--================ Fin Galeria =================-->
         
 
         
 
         
-        <!--================Feature Area =================-->
+        <!--================ Inicio Discurso de RI =================-->
         <section class="feature_area p_120">
         	<div class="container">
         		<div class="main_title">
@@ -144,13 +140,7 @@
         		</div>
         	</div>
         </section>
-        <!--================End Feature Area =================-->
-
-
-
-
-
-
+        <!--================ Fin Discurso de RI =================-->
 <?php
 	include ("pie.php");
 ?>

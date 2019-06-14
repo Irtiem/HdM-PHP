@@ -1,14 +1,10 @@
 <?php
 	include ("cabecera.php");
-	
-	$pagina="jugar";
-	if(isset($_GET['p']))
-		$pagina= $_GET['p'];	
 ?>
 
 
         
-        <!--================Services Area =================-->
+        <!--================ Inicio Area de Servicios =================-->
         <section class="services_area p_120">
         	<div class="container">
         		<div class="main_title">
@@ -40,12 +36,12 @@
         		</div>
         	</div>
         </section>
-
-
-        
+        <!--================ Fin Area de Servicios =================-->
 
         
-        <!--================Feature Area =================-->
+
+        
+        <!--================ Inicio Texto =================-->
         <section class="feature_area p_120">
         	<div class="container">
         		<div class="main_title">
@@ -77,17 +73,7 @@ mandanos un pdf con tu nombre y la aventura a esta dirección hdmazmorra@hotmail
         		</div>
         	</div>
         </section>
-        <!--================End Feature Area =================-->
-        
-
-
-
-
-
-
-
-
-
+        <!--================ Fin Texto =================-->
 
 <?php
 	include ("pie.php");

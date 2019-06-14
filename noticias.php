@@ -1,22 +1,17 @@
 <?php
 	include ("cabecera.php");
-	
-	$pagina="jugar";
-	if(isset($_GET['p']))
-		$pagina= $_GET['p'];	
 ?>
-
-
-
 		<!--================ Código Ajax =================-->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-		<!--================ Código Ajax =================-->		
+		<!--================ Código Ajax =================-->	
+		
 <script>
+<!--================ Inicio Efecto =================-->
   $(document).ready(function(){
 	$("#parrafo").fadeOut(3000);
 	$("#parrafo").slideDown("slow");
 	$("#parrafo").fadeIn(3000);
-	
+<!--================ Fin Efecto =================-->	
   /*----------------------------------------Ubicación y temperatura----------------------------------------*/
 	navigator.geolocation.getCurrentPosition(Ubicacion, error);
 	
@@ -54,18 +49,9 @@
 			
 		});	
 		
-  /*----------------------------------------Ubicación y temperatura----------------------------------------*/	  
-	  
+  /*----------------------------------------Ubicación y temperatura----------------------------------------*/	  	  
 </script>	
-	
-	
-	
-	
-	
-	
-
-        
-        <!--================Services Area =================-->
+        <!--================ Inicio Area de Servicios =================-->
         <section class="services_area p_120">
         	<div class="container">
         		<div class="main_title">
@@ -97,8 +83,9 @@
         		</div>
         	</div>
         </section>
-        <!--================End Services Area =================-->
-        
+        <!--================ Fin Area de Servicios =================-->
+		
+        <!--================ Inicio Galeria =================-->
         <section class="builder_area">
         	<div class="main_title">
         		<h2>Últimos modulos añadidos</h2>
@@ -117,25 +104,23 @@
 				</div>					
 			</div>
         </section>
-        <!--================End Builder Image Area =================-->
-        
+        <!--================ Fin Galeria =================-->
 
-        
-
-        
-        <!--================Feature Area =================-->
+        <!--================  Inicio Texto =================-->
         <section class="feature_area p_120">
         	<div class="container">
         		<div class="main_title">
         			<h2>Kult: Divinidad Perdida</h2>
         			<p>
-En KULT: Divinidad Perdida, los protagonistas son personas que se involucran en eventos relacionados con su pasado, o de una u otra forma son arrastrados a ellos. Los pecados cometidos les dan caza, exigiendo redención. Los temores de la infancia afloran manifestándose en forma física.
-Estos terrores toman su forma en base a lo que se esconde dentro de nosotros, así que no podemos percibir todo lo que existe ahí fuera sin ver esos horrores reflejados en nosotros mismos. Todo ser humano tiene sus propios demonios, su propio purgatorio.
-
-En las historias que contaremos en KULT: Divinidad Perdida, los protagonistas se ven obligados a transitar en el abismo, tal vez incluso a través del umbral de la muerte misma, solo para descubrir que no hay destino final. La muerte es solo el principio.
-
-Los oráculos y profetas buscan nuestra atención con sus graffiti con significados ocultos, a través de sus divagaciones en blogs dedicados a las conspiraciones, y parandonos por la calle y gritando la Verdad en nuestros rostros con estruendosos monólogos. Sin embargo, inmediatamente volvemos nuestra mirada hacia la luz reconfortante de las pantallas de nuestros dispositivos móviles y seguimos caminando como si nada hubiera pasado.
-
+En KULT: Divinidad Perdida, los protagonistas son personas que se involucran en eventos relacionados con su pasado, o de una u otra forma son arrastrados a ellos. Los pecados cometidos les dan caza, exigiendo redención.
+ Los temores de la infancia afloran manifestándose en forma física.
+Estos terrores toman su forma en base a lo que se esconde dentro de nosotros, así que no podemos percibir todo lo que existe ahí fuera sin ver esos horrores reflejados en nosotros mismos. 
+Todo ser humano tiene sus propios demonios, su propio purgatorio.
+En las historias que contaremos en KULT: Divinidad Perdida, los protagonistas se ven obligados a transitar en el abismo, tal vez incluso a través del umbral de la muerte misma, solo para descubrir que no hay destino final.
+ La muerte es solo el principio.
+Los oráculos y profetas buscan nuestra atención con sus graffiti con significados ocultos, a través de sus divagaciones en blogs dedicados a las conspiraciones, y parandonos por la calle 
+y gritando la Verdad en nuestros rostros con estruendosos monólogos. Sin embargo, inmediatamente volvemos nuestra mirada hacia la luz reconfortante de las pantallas de nuestros dispositivos 
+móviles y seguimos caminando como si nada hubiera pasado.
 En las historias que contaremos en KULT: Divinidad Perdida, los personajes principales despiertan de su letargo y se dan cuenta de que todo lo que creían saber es una mentira, al igual que toda su vida anterior.
 
 					</p>
@@ -162,8 +147,7 @@ En las historias que contaremos en KULT: Divinidad Perdida, los personajes princ
         		</div>
         	</div>
         </section>
-        <!--================End Feature Area =================-->
-        
+        <!--================ Fin Texto =================-->
 <?php
 	include ("pie.php");
 ?>

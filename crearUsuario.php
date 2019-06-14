@@ -29,10 +29,10 @@
 							$msg=$usr->guardarUsuario();
 						}
 						else
-							$msg="imposible crear usuario, el e-mail $email ya existe en la tabla usuarios";
+							$msg="No se ha podido crear el usuario, el e-mail $email ya esta en uso";
 					}
 					else
-						$msg="Los password no coinciden";
+						$msg="La contraseña no coincide";
 				}
 				else
 					$msg="Correo incorrecto";
@@ -53,7 +53,7 @@
 	<input type="password" name="pass" value="<?php echo $pass ?>"><br>
 	Repite la Contraseña:<br>
 	<input type="password" name="pass2" value="<?php echo $pass2 ?>"><br>
-	*Es obligatorio completar todos los campos <a href='login.php'> [ VOLVER AL PROGRAMA PRINCIPAL ] </a><br>
+	*Debe rellenar todos los campos <a href='login.php'> [ VOLVER AL PROGRAMA PRINCIPAL ] </a><br>
 	<input type="submit" value="CREAR" name="crear">
 	</form>
 	<?php 

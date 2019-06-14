@@ -1,14 +1,10 @@
 <?php
 	include ("cabecera.php");
-	
-	$pagina="jugar";
-	if(isset($_GET['p']))
-		$pagina= $_GET['p'];	
 ?>
 
 
         
-        <!--================Services Area =================-->
+        <!--================ Inicio Que Ofrecemos =================-->
         <section class="services_area p_120">
         	<div class="container">
         		<div class="main_title">
@@ -45,7 +41,10 @@
         
 
         
-        <!--================Feature Area =================-->
+        <!--================ Fin Que Ofrecemos =================-->
+		
+		<!--================ Inicio Cookies =================-->
+		
         <section class="feature_area p_120">
         	<div class="container">
         		<div class="main_title">
@@ -104,18 +103,7 @@ Esta Política de Cookies podría modificarse en cualquier momento para adaptars
         		</div>
         	</div>
         </section>
-        <!--================End Feature Area =================-->
-        
-
-
-
-
-
-
-
-
-
-
+        <!--================ Fin Cookies =================-->
 <?php
 	include ("pie.php");
 ?>

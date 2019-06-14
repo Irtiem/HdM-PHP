@@ -1,4 +1,4 @@
-        <!--================ start footer Area  =================-->	
+        <!--================ Inicio footer =================-->	
         <footer class="footer-area p_120">
             <div class="container">
                 <div class="row">
@@ -32,14 +32,10 @@
                 </div>
             </div>
         </footer>
-		<!--================ End footer Area  =================-->
+		<!--================ Fin footer =================-->
         
-        
-        
-        
-
-        <!-- Optional JavaScript -->
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <!-- JavaScript Toggle del menu hamburguesa-->
+        <!-- Orden: jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="js/jquery-3.2.1.min.js"></script>
         <script src="js/popper.js"></script>
 		<script src="js/bootstrap.min.js"></script>
