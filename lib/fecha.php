@@ -7,9 +7,9 @@
 // -----------------------------------------------------------------
 // Tabla de meses
 // -----------------------------------------------------------------
-   $meses = array ("enero", "febrero", "marzo", "abril",
-                   "mayo", "junio", "julio", "agosto",
-                   "septiembre", "octubre", "noviembre", "diciembre");
+   $meses = array ("Enero", "Febrero", "Marzo", "Abril",
+                   "Mayo", "Junio", "Julio", "Agosto",
+                   "Septiembre", "Octubre", "Noviembre", "Diciembre");
 
 // -----------------------------------------------------------------
 // Convertir fecha a cadena
@@ -29,9 +29,9 @@ function date2string ($date)
 // -----------------------------------------------------------------
 function dmy2date ($dia, $mes, $anyo)
 {
-   $meses = array ("enero", "febrero", "marzo", "abril", "mayo",
-                   "junio", "julio", "agosto", "septiembre",
-                   "octubre", "noviembre", "diciembre");
+   $meses = array ("Enero", "Febrero", "Marzo", "Abril", "Mayo",
+                   "Junio", "Julio", "Agosto", "Septiembre",
+                   "Octubre", "Noviembre", "Diciembre");
    $i=0;
    $enc=0;
    while ($i<12 && !$enc)

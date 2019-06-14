@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
     <head>
-        <!-- Required meta tags -->
+        <!-- Meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="icon" href="img/favicon.png" type="image/png">
@@ -14,13 +14,12 @@
         <link rel="stylesheet" href="vendors/lightbox/simpleLightbox.css">
         <link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
         <link rel="stylesheet" href="vendors/animate-css/animate.css">
-        <!-- main css -->
+        <!-- Main css -->
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/responsive.css">
     </head>
-    <body>
-        
-        <!--================Header Menu Area =================-->
+    <body>      
+        <!--================ Inicio Header Menu Area =================-->
         <header class="header_area">
            	<div class="top_menu row m0">
            		<div class="container">
@@ -73,15 +72,15 @@
             	</nav>
             </div>
         </header>
-        <!--================Header Menu Area =================-->
+        <!--================ Fin Header Menu Area =================-->
         
-        <!--================Home Banner Area =================-->
+        <!--================ Inicio Home Banner Area =================-->
         <section class="home_banner_area">
             <div class="banner_inner d-flex align-items-center">
             	<div class="overlay bg-parallax" data-stellar-ratio="0.9" data-stellar-vertical-offset="0" data-background=""></div>
             </div>
         </section>
-        <!--================End Home Banner Area =================-->
+        <!--================ Fin Home Banner Area =================-->
 		
 		
 		

@@ -49,8 +49,6 @@
 			$id_usr="";
 		}
 	}
-	
- //EVITAR REENVIO HACINDO ESPERAR CON UNA COOKIE QUE ESTE EN EL SISTEMA 1 MINUTO
 ?>
 <html>
 <head>
@@ -61,7 +59,7 @@
 
 
 <?php
-////////////////////////////////////
+
 
 $comienzo=0;
 if(isset($_GET['comienzo'])){
@@ -80,7 +78,7 @@ if (isset($_POST['publicar'])){
 	  }
 	  else
 		$msg="Faltan datos";
-  }
+}
 	else
 		$msg="Ahora no puedes publicar espera".ESPERA." segundos ";
 }
@@ -137,19 +135,5 @@ if (isset($_POST['publicar'])){
         $verAnteriores="";
     echo "<br><br> $verAnteriores &nbsp;&nbsp;<a href='{$_SERVER['PHP_SELF']}'>Volver Principio </a>";
   }
-?>
-
-
-
-
-
-
-
-
-
-
-
-
-<?php
 	include ("pie.php");
 ?>
